@@ -1,0 +1,19 @@
+{
+  "name": "en_clase",
+  "version": "1.0.0",
+  "description": "proyecto coderhouse",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giselemilagros88/sass_coder_46960.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/giselemilagros88/sass_coder_46960/issues"
+  },
+  "homepage": "https://github.com/giselemilagros88/sass_coder_46960#readme"
+}

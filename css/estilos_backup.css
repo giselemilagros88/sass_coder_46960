@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin:20px;
+    font-family: 'Catamaran', sans-serif;
+    color:black;
+}
+header{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.nav{
+   display:flex;
+   justify-content: space-between;
+}
+.linkNav{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+.linkNav:hover{
+    background-color: #e6e6e6;
+    border-radius: 10px;
+}
+
+.mainIndex{
+    width: 90%;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.sectionPrincipalMainIndex{
+    width: 60%;
+    text-align: justify;
+}
+.tituloPrincipalMainIndex{
+    font-size:30px;
+}
+.parrafoSeccionPrincipalIndex{
+    color: violet;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    display:flex;
+    justify-content:space-evenly;
+}
+.iconFooter{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/*media queries mobile*/
+@media screen and (width<= 768px) {
+    .nav{
+        flex-direction: column;
+     }
+     .tituloPrincipalMainIndex{
+        font-size:25px;
+      }
+     .iconFooter{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+     }
+}

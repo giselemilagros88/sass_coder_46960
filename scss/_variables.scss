@@ -1,0 +1,74 @@
+/*crear variables*/
+$color-primario: #2c9999;
+$color-secundario: rgb(167, 232, 167);
+$color-texto: #666;
+$color-blanco:white;
+
+$espaciado-estandar: 10px;
+$espaciado-doble: 20px;
+
+$fuente-normal: 1em;
+$fuente-pequena: 0.8em;
+$fuente-grande: 30px;
+
+$tipografia-general: 'Catamaran', sans-serif;
+$tipografia-alternativa: 'Times New Roman', Times, serif;
+$tamanio-20px :21px;
+$color-violeta: violet;
+
+/*maps*/
+$redes:(
+    face : blue,
+    instagram : rgb(196, 14, 251),
+    telegram : rgb(15, 1, 64),
+    tiktok:red
+
+);
+
+$bordes:(
+    borde-solid-principal :  1px solid black,
+    borde-solid-dospx:  2px solid black,
+    borde-solid-trespx:  3px solid black,
+);
+
+$map-flex:(
+    flex: flex,
+    row: row,
+    column: column,
+    space-around: space-around,
+    space-between: space-between,
+    space-evenly: space-evenly,
+    center: center,
+);
+
+
+
+$red-facebook :  blue;
+$red-instagram : rgb(251, 58, 14);
+$red-telegram : rgb(15, 1, 64);
+$red-tiktok : red;
+
+$fuentes:(
+    thin:100,
+    light:300,
+    regular:400,
+    medium:500,
+    bold:700,
+    black:900
+);
+
+$sizes:(
+    catorce: 14px,
+    16 : 16px,
+    20 :20px,
+    10 : 10px,
+    1rem : 1rem,
+    2rem :2rem
+);
+
+$estilos: (
+  color: #3673D9,
+  centro: center,
+  tFuente: 35px,
+  1rem : 1rem
+);

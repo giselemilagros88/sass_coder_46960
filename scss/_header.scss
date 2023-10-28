@@ -1,0 +1,46 @@
+header{
+    background-color: #f2f2f2;
+    padding: $tamanio-20px;
+    text-align: center;
+    .logo{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .nav{
+        display:flex;
+        justify-content: space-between;
+        .linkNav{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-size: $tamanio-20px;
+            padding: 10px;
+            &:hover{
+                background-color: $color-primario;
+                border-radius: 10px;
+            }
+        }
+    }
+}
+
+.div{
+    color:map-get($estilos ,color );
+    text-align: map-get($estilos , centro );
+    font-size: map-get($estilos , tFuente );
+    padding:map-get($estilos , 1rem );
+}
+
+.colorVerde{
+    color: map-get($estilos , color );
+}
+/*media queries mobile*/
+@media screen and (width<= 768px) {
+    header{
+        // aunque aqui no escriba nada, tengo que ser igual de especifico que arriba
+        .nav{
+            flex-direction: column;
+        }
+    }
+  
+}
